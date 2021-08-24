@@ -1,5 +1,7 @@
 //Definicion de variables
-const url = "https://localhost:3000/api/productos/";
+const url = 'http://localhost:3000/api/productos';
+
+// const url = "/dic.txt";
 const contenedor = document.querySelector('tbody');
 let resultados = "";
 
@@ -38,6 +40,7 @@ const mostrar = (productos) =>{
                     </tr>
                     `
     })
+    
     contenedor.innerHTML = resultados;
     
 }

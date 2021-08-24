@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "descripcion": "Arroz 500gr",
+        "precio": 1600,
+        "stock": 100,
+        "familia": "Granos"
+    },
+    {
+        "id": 2,
+        "descripcion": "Frijol 500gr",
+        "precio": 2000,
+        "stock": 100,
+        "familia": "Granos"
+    },
+    {
+        "id": 3,
+        "descripcion": "Garbanso 500gr",
+        "precio": 2300,
+        "stock": 100,
+        "familia": "Granos"
+    },
+    {
+        "id": 4,
+        "descripcion": "Lenteja 500gr",
+        "precio": 1400,
+        "stock": 100,
+        "familia": "Granos"
+    },
+    {
+        "id": 5,
+        "descripcion": "Leche Entera 1 litro",
+        "precio": 2100,
+        "stock": 50,
+        "familia": "Lacteos"
+    },
+    {
+        "id": 6,
+        "descripcion": "Leche Deslatosada 1 litro",
+        "precio": 2300,
+        "stock": 50,
+        "familia": "Lacteos"
+    },
+    {
+        "id": 7,
+        "descripcion": "Leche Descremada 1 litro",
+        "precio": 2400,
+        "stock": 50,
+        "familia": "Lacteos"
+    },
+    {
+        "id": 8,
+        "descripcion": "leche Fortificada 1 litro",
+        "precio": 2600,
+        "stock": 50,
+        "familia": "Lacteos"
+    }
+]
