@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+
+    <title>Crud JavaScript Apirestful Mysql</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <div class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">
+        <button id="btnCrear" type="button" class="btn btn-primary mt-2" data-bs-toggle="modal">Crear Producto</button>
+        <table id="tableProductos" class="table table-striped table-bordered mt-2">
+            <thead>
+                <tr class="text-center">
+                    <td>Id</td>
+                    <td>Descripcion</td>
+                    <td>Precio</td>
+                    <td>Stock</td>
+                    <td>Familia</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody>
+    
+    
+            </tbody>
+        </table>
+    </div>
+
+    
+    
+    
+    <div id="modalProducto" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="descripcion" class="col-form-label">Producto:</label>
+                            <input type="text" class="form-control" id="descripcion">
+                        </div>
+                        <div class="mb-3">
+                            <label for="precio" class="col-form-label">Precio:</label>
+                            <input type="number" class="form-control" id="precio">
+                        </div>
+                        <div class="mb-3">
+                            <label for="stock" class="col-form-label">Stock:</label>
+                            <input type="number" class="form-control" id="stock">
+                        </div>
+                        <div class="mb-3">
+                            <label for="familia" class="col-form-label">Familia:</label>
+                            <input type="text" class="form-control" id="familia">
+                        </div>
+                                    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="submit" class="btn btn-primary">Registrar</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <script src="code.js"></script>
+
+    
+  </body>
+</html>
