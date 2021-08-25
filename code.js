@@ -122,6 +122,7 @@ formProducto.addEventListener('submit', (e)=>{
             nuevoProducto.push(data);
             mostrar(nuevoProducto);
         })
+        .then(response => location.reload())
     }
     if (opcion=='editar') {
         fetch(url+idForm,{
